@@ -8,6 +8,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NvDecodeD3D9", "demo\Samples\NvDecodeD3D9\NvDecodeD3D9.vcxproj", "{EAB14BE9-69C4-6DF1-81C2-2A90F19CC73F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NvDecodeGL", "demo\Samples\NvDecodeGL\NvDecodeGL.vcxproj", "{5D74260A-B080-8ACC-D732-0198382069B7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D75C1478-9C2D-3245-92AB-BA6BCA09A05C} = {D75C1478-9C2D-3245-92AB-BA6BCA09A05C}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NvEncoder", "demo\Samples\NvEncoder\NvEncoder.vcxproj", "{ACA66694-3EFB-4A86-8FF1-44A672AF9267}"
 EndProject
